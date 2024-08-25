@@ -1,2 +1,10 @@
-package com.scaler.paymentservice.dtos;public class GeneratePaymentLinkDto {
+package com.scaler.paymentservice.dtos;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class GeneratePaymentLinkDto {
+    private Long orderId;
 }
